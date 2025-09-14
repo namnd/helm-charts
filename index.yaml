@@ -11,4 +11,15 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/demo-0.1.0/demo-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-14T00:57:21.453050521Z"
+  navidrome:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-14T01:36:09.707336092Z"
+    description: A Helm chart for Kubernetes
+    digest: 5abea4d9ac4f0e0f68cdfcc776b9b68675846d6402c7c21d4fc11331f558adaa
+    name: navidrome
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-14T01:36:09.707341552Z"
