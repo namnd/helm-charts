@@ -17,3 +17,4 @@ helm search repo namnd
 ### Contents
 
 - `charts/navidrome`: Forked of https://github.com/sypticus/navidrome-helm
+- `charts/youtube-dl`: A simple chart to deploy https://github.com/Jeeaaasus/youtube-dl
