@@ -22,4 +22,15 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-14T01:36:09.707341552Z"
+  youtube-dl:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-09-15T00:27:22.471971688Z"
+    description: A Helm chart for Kubernetes
+    digest: 8b610830a7c699a11a64637fa5d2adb7020b55eb1d0884242bbce03f8e230c5c
+    name: youtube-dl
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-09-15T00:27:22.471979072Z"
