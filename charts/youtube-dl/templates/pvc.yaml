@@ -1,0 +1,15 @@
+{{- if .Values.persistence.enabled }}
+{{- if (not .Values.persistence.downloads.existingClaim) }}
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: "downloads-data"
+spec:
+  accessModes:
+    - {{ .Values.persistence.downloads.accessMode }}
+  resources:
+    requests:
+      storage: {{ .Values.persistence.downloads.pvcSize | quote }}
+  storageClassName: {{ .Values.persistence.downloads.storageClassName }}
+{{- end }}
+{{- end}}
