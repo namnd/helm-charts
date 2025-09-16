@@ -25,6 +25,16 @@ entries:
   youtube-dl:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-09-16T00:57:46.320132192Z"
+    description: A Helm chart for Kubernetes
+    digest: 70da74329a1acb078fd6251791f0ad0b230252b7ed95f30ac3298a15307819e9
+    name: youtube-dl
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.2.0/youtube-dl-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-09-16T00:52:25.703854596Z"
     description: A Helm chart for Kubernetes
     digest: 804e3ca8c9fde169634c04cb99b3c06b9844526961fdafb86e757d8ac93fd0ce
@@ -43,4 +53,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-16T00:52:25.703863302Z"
+generated: "2025-09-16T00:57:46.320166616Z"
