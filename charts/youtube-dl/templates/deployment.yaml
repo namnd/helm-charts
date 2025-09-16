@@ -68,12 +68,20 @@ spec:
             {{- toYaml . | nindent 12 }}
           {{- end }}
           volumeMounts:
+            - name: config
+              mountPath: /config
             - name: downloads
               mountPath: {{ .Values.persistence.downloads.mountPath }}
         {{- with .Values.persistence.additionalVolumeMounts }}
           {{- toYaml . | nindent 12 }}
         {{- end }}
       volumes:
+      {{- if .Values.config.enabled }}
+        - name: config
+          configMap:
+            name: {{ .Values.config.configMap }}
+      {{- end }}
+
       {{- if .Values.persistence.enabled }}
         - name: downloads
           persistentVolumeClaim:

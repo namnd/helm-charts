@@ -18,6 +18,10 @@ service:
   type: ClusterIP
   port: 8080
 
+config:
+  enabled: false
+  configMap: ""
+
 persistence:
   enabled: false
 
