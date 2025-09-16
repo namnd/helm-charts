@@ -10,7 +10,7 @@ nameOverride: ""
 fullnameOverride: ""
 
 # See https://github.com/Jeeaaasus/youtube-dl?tab=readme-ov-file#env-parameters for the supported env parameters
-env:
+env: []
   # - name: youtubedl_webui
   #   value: "true"
 
