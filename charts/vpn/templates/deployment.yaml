@@ -59,10 +59,6 @@ spec:
             - mountPath: /mnt/credentials
               name: credentials
 
-      volumeMounts:
-        - mountPath: /mnt/credentials
-          name: credentials
-
         - name: {{ .Chart.Name }}
           {{- with .Values.securityContext }}
           securityContext:
