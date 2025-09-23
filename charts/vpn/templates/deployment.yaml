@@ -69,6 +69,8 @@ spec:
           env:
             - name: AWS_EC2_METADATA_SERVICE_ENDPOINT
               value: "http://127.0.0.1:9911/"
+            - name: TAILSCALE_AUTH_KEY
+              value: {{ .Values.tailscaleAuthKey }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}

@@ -5,6 +5,8 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
+tailscaleAuthKey:
+
 iamra:
   image: public.ecr.aws/rolesanywhere/credential-helper:latest
   trustAnchorArn: ""
