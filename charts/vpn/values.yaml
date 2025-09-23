@@ -5,6 +5,13 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
+iamra:
+  image: public.ecr.aws/rolesanywhere/credential-helper:latest
+  trustAnchorArn: ""
+  profileArn: ""
+  roleArn: ""
+  certSecretName: ""
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
