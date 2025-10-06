@@ -18,3 +18,4 @@ helm search repo namnd
 
 - `charts/navidrome`: Forked of https://github.com/sypticus/navidrome-helm
 - `charts/youtube-dl`: A simple chart to deploy https://github.com/Jeeaaasus/youtube-dl
+- `charts/cloudflare-tunnel`: Forked of https://github.com/cloudflare/helm-charts/tree/main/charts/cloudflare-tunnel
