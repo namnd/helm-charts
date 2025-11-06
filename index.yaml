@@ -34,6 +34,17 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
     version: 0.1.0
+  url-scraper:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-11-06T12:50:35.029510962Z"
+    description: A Helm chart for Kubernetes
+    digest: 337b9ce7f7681978b736427bbbbdbce422f30e70164891cabc17521ff6d24cde
+    name: url-scraper
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/url-scraper-0.1.0/url-scraper-0.1.0.tgz
+    version: 0.1.0
   vpn:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -116,4 +127,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2025-10-06T13:18:56.306382365Z"
+generated: "2025-11-06T12:50:35.029530309Z"
