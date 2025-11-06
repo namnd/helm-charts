@@ -1,9 +1,11 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: ghcr.io/namnd/url-scraper
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "latest"
+
+cloudflareApiToken: ""
 
 imagePullSecrets: []
 nameOverride: ""
