@@ -6,6 +6,7 @@ image:
   tag: "latest"
 
 tailscaleAuthKey:
+keyName:
 
 iamra:
   image: public.ecr.aws/rolesanywhere/credential-helper:latest
