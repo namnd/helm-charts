@@ -48,6 +48,16 @@ entries:
   vpn:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-01-07T13:17:20.203156361Z"
+    description: A Helm chart for Kubernetes
+    digest: 1b949bb16c0d904c356de2955bbec302caea5aaeb31860967612bb8275444168
+    name: vpn
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/vpn-0.4.0/vpn-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-11-09T01:36:04.590777616Z"
     description: A Helm chart for Kubernetes
     digest: 1b10a72c357ed4f12d8860a514a2d76d1d22a88a70953ffbdd01b42a0112ea7d
@@ -137,4 +147,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-09T01:36:04.590805708Z"
+generated: "2026-01-07T13:17:20.20317245Z"
