@@ -23,6 +23,17 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/demo-0.1.0/demo-0.1.0.tgz
     version: 0.1.0
+  myhh:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2026-07-09T01:33:02.77950692Z"
+    description: A Helm chart for Kubernetes
+    digest: 3a448a096febe614fd06ec6c23ab9fe2d92df0721594bf8bf70afbf62ebc5b42
+    name: myhh
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/myhh-0.1.1/myhh-0.1.1.tgz
+    version: 0.1.1
   navidrome:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -157,4 +168,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-09T01:24:32.452966572Z"
+generated: "2026-07-09T01:33:02.77952673Z"
