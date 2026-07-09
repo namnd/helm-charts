@@ -26,6 +26,16 @@ entries:
   myhh:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2026-07-09T01:40:43.263778362Z"
+    description: A Helm chart for Kubernetes
+    digest: bdd261daf92790ce53f6b8585bf35747901742f51f96417dcaa35e52f5b4ac34
+    name: myhh
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/myhh-0.1.3/myhh-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2026-07-09T01:37:00.190543867Z"
     description: A Helm chart for Kubernetes
     digest: 38ca690009209fcfdaf796def7aea804c40a571c447105bd04f9173dbf947566
@@ -178,4 +188,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-09T01:37:00.190562559Z"
+generated: "2026-07-09T01:40:43.263811494Z"
