@@ -52,6 +52,9 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
+httpRoute:
+  enabled: false
+
 resources: {}
 
 livenessProbe:
