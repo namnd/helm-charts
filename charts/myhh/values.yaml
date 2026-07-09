@@ -1,19 +1,21 @@
 replicaCount: 1
 
 image:
-  repository: ghcr.io/namnd/vpn
+  repository: ghcr.io/namnd/myhh
   pullPolicy: IfNotPresent
   tag: "latest"
 
-tailscaleAuthKey: ""
-keyName: ""
+appURL: ""
 
-iamra:
-  image: public.ecr.aws/rolesanywhere/credential-helper:latest
-  trustAnchorArn: ""
-  profileArn: ""
-  roleArn: ""
-  certSecretName: ""
+database:
+  secretName: ""
+  secretKey: "jdbc-uri"
+
+auth:
+  google:
+    secretName: ""
+    clientIDKey: "client_id"
+    clientSecretKey: "client_secret"
 
 imagePullSecrets: []
 nameOverride: ""
