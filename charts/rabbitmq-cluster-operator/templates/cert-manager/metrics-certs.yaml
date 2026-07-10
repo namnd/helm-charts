@@ -1,0 +1,20 @@
+{{- if and .Values.certManager.enable .Values.metrics.enable }}
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  labels:
+    app.kubernetes.io/managed-by: {{ .Release.Service }}
+    app.kubernetes.io/name: {{ include "cluster-operator.name" . }}
+    helm.sh/chart: {{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}
+    app.kubernetes.io/instance: {{ .Release.Name }}
+  name: metrics-certs
+  namespace: {{ .Release.Namespace }}
+spec:
+  dnsNames:
+  - {{ include "cluster-operator.resourceName" (dict "suffix" "controller-manager-metrics-service" "context" $) }}.{{ include "cluster-operator.namespaceName" $ }}.svc
+  - {{ include "cluster-operator.resourceName" (dict "suffix" "controller-manager-metrics-service" "context" $) }}.{{ include "cluster-operator.namespaceName" $ }}.svc.cluster.local
+  issuerRef:
+    kind: Issuer
+    name: selfsigned-issuer
+  secretName: rabbitmq-cluster-operator-metrics-server-cert
+{{- end }}

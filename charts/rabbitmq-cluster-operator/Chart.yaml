@@ -1,0 +1,14 @@
+apiVersion: v2
+name: rabbitmq-cluster-operator
+description: A Helm chart to distribute rabbitmq cluster-operator
+type: application
+
+version: 0.1.0
+appVersion: "2.22.1"
+
+keywords:
+  - kubernetes
+  - operator
+
+annotations:
+  kubebuilder.io/generated-by: kubebuilder
