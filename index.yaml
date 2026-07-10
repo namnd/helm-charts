@@ -65,6 +65,22 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/navidrome-0.1.0/navidrome-0.1.0.tgz
     version: 0.1.0
+  rabbitmq-cluster-operator:
+  - annotations:
+      kubebuilder.io/generated-by: kubebuilder
+    apiVersion: v2
+    appVersion: 2.22.1
+    created: "2026-07-10T07:39:17.024405979Z"
+    description: A Helm chart to distribute rabbitmq cluster-operator
+    digest: 545823fa55d9942ea2b53963c7e1aed9b94262f0cf501c4e81fe3a3d7e7ec203
+    keywords:
+    - kubernetes
+    - operator
+    name: rabbitmq-cluster-operator
+    type: application
+    urls:
+    - https://github.com/namnd/helm-charts/releases/download/rabbitmq-cluster-operator-0.1.0/rabbitmq-cluster-operator-0.1.0.tgz
+    version: 0.1.0
   url-scraper:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -188,4 +204,4 @@ entries:
     urls:
     - https://github.com/namnd/helm-charts/releases/download/youtube-dl-0.1.0/youtube-dl-0.1.0.tgz
     version: 0.1.0
-generated: "2026-07-09T01:40:43.263811494Z"
+generated: "2026-07-10T07:39:17.02444235Z"
